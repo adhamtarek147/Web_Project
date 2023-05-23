@@ -26,9 +26,12 @@
   <section>
     <aside>
       <div class="search">
-        <label for="search"></label>
-        <input id="search" type="search" name="id" placeholder="ex:20210069" formmethod="get" required>
-        <input type="submit" formmethod="get">
+        <form id = search-form>
+          <label for="search"></label>
+          <input id="search" type="search" name="id" placeholder="ex:20210069" formmethod="get" required>
+          <input type="submit" formmethod="get" required>
+        </form>
+        
       </div>
       <div class="table-container"> 
         <div class="table-wrapper">
@@ -158,4 +161,6 @@
         navLinks.classList.toggle('mobile-menu');
     });
 </script>
+
+<script src="js/assign_department.js"></script>
 </html>
